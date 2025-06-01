@@ -81,7 +81,11 @@ Otwórz plik `style.css` i **dopisz poniższy kod na końcu pliku**, po nagłów
 🧱 Style mogą jednak pozostać w pliku – zostaną użyte, gdy dodamy te sekcje w kolejnych krokach. ✅
 
 
-Dodajemy więcej HTML:
+### 🧱 Krok 3: Rozbuduj strukturę HTML w `<body>`
+
+Czas wykorzystać style zapisane wcześniej w `style.css`, dodając odpowiednie znaczniki HTML w sekcji `<body>` naszego pliku `index.php`.
+
+🔧 **Zamień wcześniejszy testowy kod w `<body>` na poniższą strukturę:**
 
 ```HTML
   <header>
@@ -99,6 +103,30 @@ Dodajemy więcej HTML:
   </footer>
 ```
 
-O rany! CSS nie działa, dlaczego?! :(
+❗️ O rany! CSS nie działa, dlaczego?! :(  
+🧠 Musimy wymyślić coś innego, żeby zadziałał.
 
-Przetestuj czy zadziała poprzez dodanie kodu CSS w tagach <style></style> bezpośrednio w index.htmL?
+
+### 🧱 Krok 4: Dodaj style CSS bezpośrednio w `<body>`
+
+Spróbujemy rozwiązać problem, dodając kod CSS w bloku `<style>` w sekcji `<body>`.
+
+---
+
+### ⭐ Zadanie z gwiazdką: Twoja własna struktura HTML + CSS
+
+Spróbuj zaprojektować i dodać **własną podstawową strukturę HTML i CSS** – zamiast kopiować gotowy przykład. Możesz inspirować się stronami, które lubisz, albo:
+
+🧠 **Poproś ChatGPT o wygenerowanie szablonu** z sekcjami takimi jak np. `hero`, `about`, `contact`.  
+🎨 Użyj prostych styli CSS – np. layout na `flexbox`, kolory, marginesy.
+
+📁 Gdzie umieścić kod:
+- HTML dodaj wewnątrz `<body>` w `index.php`
+- CSS dodaj tymczasowo w bloku `<style>` w `body`
+
+💡 Nie musisz robić nic skomplikowanego – nawet 2–3 sekcje z estetycznym układem będą świetnym ćwiczeniem!
+
+---
+
+✅ Jeśli nie masz pomysłu, zapytaj ChatGPT:
+> "Wygeneruj mi podstawowy layout strony z nagłówkiem, treścią i stopką w HTML i CSS"
