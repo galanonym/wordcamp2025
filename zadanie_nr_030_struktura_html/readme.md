@@ -17,7 +17,7 @@ Podstawowa struktura HTML:
 </html>
 ```
 
-Ozdabiamy CSS'em
+Ozdabiamy CSS'em - dodaj ten kod do style.css
 
 ```CSS
   * {
@@ -77,3 +77,7 @@ Dodajemy więcej HTML:
     &copy; 2025 Moje Imię. Wszelkie prawa zastrzeżone.
   </footer>
 ```
+
+O rany! CSS nie działa, dlaczego?! :(
+
+Przetestuj czy zadziała poprzez dodanie kodu CSS w tagach <style></style> bezpośrednio w index.htmL?
