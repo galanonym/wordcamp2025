@@ -59,17 +59,16 @@ Text Domain: wordcamp-2025
 | `License`        | ❌ Nie        | Typ licencji (np. `GPLv2`, `MIT`). Jeśli motyw nie będzie publiczny, można wpisać `NO LICENSE`. Dla motywów publicznych WordPress wymaga licencji zgodnej z GPL. |
 | `Text Domain`    | ✅ Tak (jeśli używasz tłumaczeń) | Identyfikator używany do tłumaczeń (`__()`, `_e()` itp.). Powinien być zgodny z nazwą folderu motywu. |
 
-## ⭐ Zadanie z gwiazdką (opcjonalne)
+## 🌟 Zadanie dodatkowe: Rozszerz nagłówek `style.css`
 
-Dodaj plik screenshot.png do folderu motywu:
+Zajrzyj do oficjalnej dokumentacji WordPressa:
 
-`public_html/wp-content/themes/wordcamp-2025/screenshot.png`
+🔗 https://developer.wordpress.org/themes/core-concepts/main-stylesheet/
 
-Wymagania techniczne:
+Plik `style.css` w motywie WordPress zawiera specjalny nagłówek w formacie komentarza. Oprócz podstawowych pól, możesz dodać więcej informacji, które ułatwią identyfikację, kompatybilność i ewentualną publikację motywu.
 
-- Format: PNG
-- Nazwa: dokładnie screenshot.png
-- Rozmiar: 1200×900 px (zalecany przez WordPress)
-- Obrazek nie musi być zrzutem ekranu – może to być logo, mockup lub kolorowy placeholder
+### 🧠 Co zrobić?
 
-Po dodaniu odśwież panel administratora WordPress. Twój motyw powinien wyświetlać się z miniaturą graficzną obok nazwy i opisu – tak jak inne motywy systemowe.
+1. Otwórz swój plik `style.css`.
+2. Na podstawie dokumentacji dodaj do nagłówka kilka dodatkowych pól.
+
