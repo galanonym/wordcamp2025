@@ -5,14 +5,14 @@
 Podczas warsztatu zbudujemy prostą aplikację opartą o **WordPress**, posługując się językiem programowania **PHP**.  
 Będzie to świetna podstawa do dalszego rozwoju projektu lub stworzenia własnego szablonu.
 
-### 💡 Dla kogo?
+### Dla kogo?
 
 Zapraszamy:
 
-- 👶 **Początkujących**, którzy chcą spróbować PHP w praktyce
-- 🧠 **Bardziej zaawansowanych**, którzy chcieliby zobaczyć, jak wygląda programowanie w WordPressie od zera
+- **Początkujących**, którzy chcą spróbować PHP w praktyce
+- **Bardziej zaawansowanych**, którzy chcieliby zobaczyć, jak wygląda programowanie w WordPressie od zera
 
-## ✅ Wymagania
+## Wymagania
 
 - 💻 Komputer
 - 🧱 Podstawy **HTML** i **CSS**
