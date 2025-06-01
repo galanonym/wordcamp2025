@@ -10,7 +10,7 @@ Zrozumienie, w jaki sposób WordPress wybiera odpowiedni plik szablonu (`*.php`)
 
 Kliknij, aby zobaczyć pełen diagram:
 
-📷 [Hierarchia szablonów WordPress (Template Hierarchy)](https://i0.wp.com/developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png?ssl=1)
+📷 ![Hierarchia szablonów WordPress (Template Hierarchy)](https://i0.wp.com/developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png)
 
 Jeśli nie działa link, użyj lokalnego pliku `e67474b5-a95e-409f-b0ca-bdbf6650d8bb.png` lub przejdź na:  
 `https://developer.wordpress.org/themes/basics/template-hierarchy/`
