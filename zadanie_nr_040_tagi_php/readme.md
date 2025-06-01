@@ -40,3 +40,14 @@ Brak `wp_body_open()` może zablokować niektóre mechanizmy dostępności lub i
 | `<?php body_class(); ?>`         | w tagu `<body>`             | Dynamiczne klasy: np. `home`, `single`, `logged-in` |
 | `<?php wp_title(); ?>` lub `title_tag` | w `<title>`             | Wstawia tytuł strony/posta |
 | `<?php get_header(); ?>`, `get_footer()` | zamiast duplikować `<head>` i `<footer>` | Dzieli kod na moduły i poprawia czytelność |
+
+💡 Ciekawostka: Dodaliśmy `<?php wp_title(); ?>` - a teraz sprawdź sam:
+
+> Co pojawi się w pasku tytułu przeglądarki, jeśli wejdziesz na pojedynczy post albo stronę?  
+> Czy WordPress automatycznie zmienia tytuł w zależności od odwiedzanej treści?
+
+Spróbuj i zobacz efekt.
+
+💡 Dodatkowo: spróbuj dodać `<?php bloginfo('description'); ?>` obok tytułu – to podtytuł (subtitle) Twojego bloga ustawiony w panelu WordPress.  
+Powinien automatycznie się pojawić, jeśli został wcześniej wpisany w Ustawieniach → Ogólne.
+
