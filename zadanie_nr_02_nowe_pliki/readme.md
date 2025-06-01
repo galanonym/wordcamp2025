@@ -58,3 +58,18 @@ Text Domain: wordcamp-2025
 | `Version`        | ❌ Nie        | Numer wersji motywu (np. `1.0.0`, `0.1-beta`). Przydatne przy aktualizacjach i kontroli wersji. |
 | `License`        | ❌ Nie        | Typ licencji (np. `GPLv2`, `MIT`). Jeśli motyw nie będzie publiczny, można wpisać `NO LICENSE`. Dla motywów publicznych WordPress wymaga licencji zgodnej z GPL. |
 | `Text Domain`    | ✅ Tak (jeśli używasz tłumaczeń) | Identyfikator używany do tłumaczeń (`__()`, `_e()` itp.). Powinien być zgodny z nazwą folderu motywu. |
+
+## ⭐ Zadanie z gwiazdką (opcjonalne)
+
+Dodaj plik screenshot.png do folderu motywu:
+
+`public_html/wp-content/themes/wordcamp-2025/screenshot.png`
+
+Wymagania techniczne:
+
+- Format: PNG
+- Nazwa: dokładnie screenshot.png
+- Rozmiar: 1200×900 px (zalecany przez WordPress)
+- Obrazek nie musi być zrzutem ekranu – może to być logo, mockup lub kolorowy placeholder
+
+Po dodaniu odśwież panel administratora WordPress. Twój motyw powinien wyświetlać się z miniaturą graficzną obok nazwy i opisu – tak jak inne motywy systemowe.
