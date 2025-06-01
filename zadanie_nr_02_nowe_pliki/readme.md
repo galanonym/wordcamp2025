@@ -33,7 +33,7 @@ Utwórz plik `index.php` i wpisz do niego testowy kod:
 echo 'Testuję na WordCamp 2025';
 ```
 
-2. style.css
+#### 1. `style.css`
 
 Utwórz plik style.css i na jego początku wklej poniższy nagłówek:
 
