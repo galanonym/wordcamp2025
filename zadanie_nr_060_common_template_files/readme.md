@@ -8,11 +8,11 @@ Zrozumienie, w jaki sposób WordPress wybiera odpowiedni plik szablonu (`*.php`)
 
 ### 🧭 Oficjalna mapa hierarchii szablonów
 
-Kliknij, aby zobaczyć pełen diagram:
+Pełen diagram:
 
-📷 ![Hierarchia szablonów WordPress (Template Hierarchy)](https://i0.wp.com/developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png)
+![Hierarchia szablonów WordPress (Template Hierarchy)](https://i0.wp.com/developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png)
 
-Jeśli nie działa link, użyj lokalnego pliku `e67474b5-a95e-409f-b0ca-bdbf6650d8bb.png` lub przejdź na:  
+Jeśli nie działa link, przejdź na:
 `https://developer.wordpress.org/themes/basics/template-hierarchy/`
 
 ---
@@ -44,3 +44,35 @@ Na końcu zawsze użyje `index.php` – to **absolutne minimum**, które musi by
    ```php
    <?php
    echo 'To jest page.php';
+   
+### ⭐ Zadanie z gwiazdką – eksperyment z nazwami szablonów
+
+WordPress pozwala tworzyć **bardziej szczegółowe szablony** z nazwami zawierającymi identyfikatory (`ID`) lub adresy (`slug`), które nadpisują ogólne pliki takie jak `archive.php`, `page.php`, `single.php`.
+
+---
+
+## 🧪 Spróbuj sam:
+
+Utwórz poniższe pliki w katalogu motywu i zaobserwuj ich działanie:
+
+- `author-1.php`  
+  Używany tylko dla archiwum autora o ID `1`.
+
+- `category-news.php`  
+  Wyświetlany tylko dla kategorii o slug `news`.
+
+- `page-o-nas.php`  
+  Używany tylko dla strony statycznej o adresie `o-nas`.
+
+- `single-post-moja-historia.php`  
+  Tylko dla wpisu typu `post` i o slug `moja-historia`.
+
+---
+
+## 💡 Wskazówka
+
+Aby sprawdzić, który plik został użyty, dodaj na jego początku:
+
+```php
+<?php
+echo __FILE__;
