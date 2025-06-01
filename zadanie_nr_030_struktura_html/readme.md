@@ -1,4 +1,14 @@
-Podstawowa struktura HTML:
+## 🧱 Zadanie nr 03 – Podstawowa struktura HTML i pierwsze style
+
+### 🎯 Cel
+
+Dodanie minimalnej struktury HTML do pliku `index.php` oraz podstawowych stylów CSS do `style.css`, aby szablon zaczął przypominać prawdziwą stronę internetową.
+
+### 🧩 Krok 1: Dodaj podstawową strukturę HTML do `index.php`
+
+Zastąp tymczasowy kod w pliku `index.php` pełnym szkieletem dokumentu HTML. Dzięki temu WordPress będzie w stanie wyświetlić stronę w formacie zgodnym z przeglądarkami.
+
+Zawartość pliku `index.php` powinna wyglądać następująco:
 
 ```HTML
 <!DOCTYPE html>
@@ -17,7 +27,14 @@ Podstawowa struktura HTML:
 </html>
 ```
 
-Ozdabiamy CSS'em - dodaj ten kod do style.css
+---
+
+### 🎨 Krok 2: Dodaj podstawowe style do `style.css`
+
+W tym kroku dodamy prosty zestaw reguł CSS, który poprawi wygląd strony i nada jej bardziej uporządkowany układ.
+
+Otwórz plik `style.css` i **dopisz poniższy kod na końcu pliku**, po nagłówku komentarza z informacjami o motywie:
+
 
 ```CSS
   * {
@@ -59,6 +76,10 @@ Ozdabiamy CSS'em - dodaj ten kod do style.css
     font-size: 0.9em;
   }
 ```
+
+⚠️ **Uwaga:** Na tym etapie elementy `header`, `main` i `footer` nie są jeszcze obecne w kodzie HTML.  
+🧱 Style mogą jednak pozostać w pliku – zostaną użyte, gdy dodamy te sekcje w kolejnych krokach. ✅
+
 
 Dodajemy więcej HTML:
 
