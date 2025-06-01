@@ -15,7 +15,7 @@ Upewnijmy się, że wszyscy uczestnicy mają przygotowane środowisko do tworzen
    - Akismet Anti-Spam
    - Hello Dolly
 
-2. **Usuń niepotrzebne motywy**, pozostaw tylko domyślny (np. `Twenty Twenty-Four`) lub zainstaluj pusty motyw, który stworzymy podczas warsztatu.
+2. **Usuń niepotrzebne motywy**, pozostaw tylko domyślny (np. `Twenty Twenty-Four`).
 
 ### 🧩 Dla osób nieprzygotowanych
 
@@ -24,3 +24,7 @@ Jeśli ktoś **nie ma lokalnej instalacji WordPress**, skorzystamy z narzędzia:
 🔗 [https://tastewp.com/](https://tastewp.com/)
 
 **TasteWP** to darmowe narzędzie online, które pozwala szybko uruchomić tymczasową instalację WordPressa w przeglądarce – bez potrzeby instalowania czegokolwiek lokalnie. Świetnie sprawdza się do testów i nauki. Konto nie jest wymagane.
+
+⚠️ **Uwaga:** Przy edycji niektórych plików – szczególnie `functions.php` – w środowisku TasteWP może dojść do błędów krytycznych, które tymczasowo zablokują dostęp do strony.  
+
+Osoby korzystające z TasteWP muszą **szczególnie uważać podczas kopiowania i wklejania kodu do `functions.php`** – zalecamy dodawać kod ostrożnie.
