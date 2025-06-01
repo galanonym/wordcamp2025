@@ -1,4 +1,4 @@
-`# WordCamp Kraków 2025
+# WordCamp Kraków 2025
 
 **Prowadzący:** Piotr Wypych & Mateusz Kaliś
 
@@ -14,4 +14,4 @@ Zapraszamy:
 - Podstawy **HTML** i **CSS**
 - Znajomość podstaw programowania w jakimkolwiek języku (np. `if`, `else`, zmienne)
 - Lokalnie zainstalowany **WordPress** (najlepiej czysta instalacja)
-- Edytor tekstu (np. Visual Studio Code, Sublime Text, itp.)`
+- Edytor tekstu (np. Visual Studio Code, Sublime Text, itp.)
