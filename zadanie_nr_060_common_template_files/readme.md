@@ -41,9 +41,11 @@ Na końcu zawsze użyje `index.php` – to **absolutne minimum**, które musi by
 
 1. Utwórz pliki `home.php`, `page.php`, `single.php`, `archive.php`, `search.php`, `404.php` w katalogu motywu.
 2. W każdym pliku dodaj testowy nagłówek, np.:
-   ```php
-   <?php
-   echo 'To jest page.php';
+
+```php
+<?php
+echo 'To jest page.php';
+```
    
 ### ⭐ Zadanie z gwiazdką – eksperyment z nazwami szablonów
 
@@ -71,8 +73,8 @@ Utwórz poniższe pliki w katalogu motywu i zaobserwuj ich działanie:
 
 ## 💡 Wskazówka
 
-Aby sprawdzić, który plik został użyty, dodaj na jego początku:
+Aby sprawdzić, który plik template został użyty, dodaj na końcu pliku:
 
 ```php
-<?php
-echo __FILE__;
+<p>Template file: <?php global $template; echo wp_basename($template); ?></p>
+```
