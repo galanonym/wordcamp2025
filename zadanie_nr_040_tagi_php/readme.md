@@ -51,3 +51,4 @@ Spróbuj i zobacz efekt.
 💡 Dodatkowo: spróbuj dodać `<?php bloginfo('description'); ?>` gdzieś w treści strony (np. w tagu `<p></p>`)– to podtytuł (subtitle) Twojego bloga ustawiony w panelu WordPress.  
 Powinien automatycznie się pojawić, jeśli został wcześniej wpisany w Ustawieniach → Ogólne.
 
+💡 Przykład: otwórz przykładowy plik `wzorcowy_szkielet.php` załączony do tego zadania.
