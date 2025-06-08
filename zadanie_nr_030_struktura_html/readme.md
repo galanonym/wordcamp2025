@@ -107,9 +107,9 @@ Czas wykorzystać style zapisane wcześniej w `style.css`, dodając odpowiednie 
 🧠 Musimy wymyślić coś innego, żeby zadziałał.
 
 
-### 🧱 Krok 4: Dodaj style CSS bezpośrednio w `<body>`
+### 🧱 Krok 4: Dodaj style CSS bezpośrednio w dolnej części `<head>`
 
-Spróbujemy rozwiązać problem, dodając kod CSS w bloku `<style>` w sekcji `<body>`.
+Spróbujemy rozwiązać problem, dodając kod CSS w bloku `<style>` w sekcji `<head>`.
 
 ---
 
