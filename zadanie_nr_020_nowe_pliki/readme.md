@@ -72,3 +72,4 @@ Plik `style.css` w motywie WordPress zawiera specjalny nagłówek w formacie kom
 1. Otwórz swój plik `style.css`.
 2. Na podstawie dokumentacji dodaj do nagłówka kilka dodatkowych pól.
 
+## 🌟 Zadanie dodatkowe: Dodaj plik `screenshot.png` i sprawdź menu `Appearance > Themes`
