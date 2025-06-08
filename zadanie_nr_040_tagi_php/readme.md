@@ -48,6 +48,6 @@ Brak `wp_body_open()` może zablokować niektóre mechanizmy dostępności lub i
 
 Spróbuj i zobacz efekt.
 
-💡 Dodatkowo: spróbuj dodać `<?php bloginfo('description'); ?>` obok tytułu – to podtytuł (subtitle) Twojego bloga ustawiony w panelu WordPress.  
+💡 Dodatkowo: spróbuj dodać `<?php bloginfo('description'); ?>` gdzieś w treści strony (np. w tagu `<p></p>`)– to podtytuł (subtitle) Twojego bloga ustawiony w panelu WordPress.  
 Powinien automatycznie się pojawić, jeśli został wcześniej wpisany w Ustawieniach → Ogólne.
 
