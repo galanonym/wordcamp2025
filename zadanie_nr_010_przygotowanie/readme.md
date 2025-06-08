@@ -17,6 +17,11 @@ Upewnijmy się, że wszyscy uczestnicy mają przygotowane środowisko do tworzen
 
 2. **Usuń niepotrzebne motywy**, pozostaw tylko domyślny (np. `Twenty Twenty-Four`).
 
+3. **Instalujemy pluginy**
+   - Classic Editor by WordPress.org
+   - Advanced Custom Fields (ACF®) by WP Engine
+   - (opcjonalnie) WPIDE – File Manager & Code Editor by XplodedThemes
+
 ### 🧩 Dla osób nieprzygotowanych
 
 Jeśli ktoś **nie ma lokalnej instalacji WordPress**, skorzystamy z narzędzia:
