@@ -30,6 +30,6 @@ Jeśli ktoś **nie ma lokalnej instalacji WordPress**, skorzystamy z narzędzia:
 
 **TasteWP** to darmowe narzędzie online, które pozwala szybko uruchomić tymczasową instalację WordPressa w przeglądarce – bez potrzeby instalowania czegokolwiek lokalnie. Świetnie sprawdza się do testów i nauki. Konto nie jest wymagane.
 
-⚠️ **Uwaga:** Przy edycji niektórych plików – szczególnie `functions.php` – w środowisku TasteWP może dojść do błędów krytycznych, które tymczasowo zablokują dostęp do strony.  
+⚠️ **Uwaga:** Przy edycji niektórych plików – szczególnie `functions.php` – w środowisku TasteWP może dojść do błędów krytycznych, które tymczasowo zablokują dostęp do strony. Na szczęście w większości przypadków powinno dać się odzyskać dostęp.
 
 Osoby korzystające z TasteWP muszą **szczególnie uważać podczas kopiowania i wklejania kodu do `functions.php`** – zalecamy dodawać kod ostrożnie.
