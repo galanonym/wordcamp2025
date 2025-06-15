@@ -37,16 +37,15 @@ Wklej do niego poniższą wersję pętli WordPressa:
 
 ```php
 <section>
-  <?php if ( have_posts() ) : ?>
-    <?php while ( have_posts() ) : the_post(); ?>
-      <div class="post-item">
-        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-        <div class="post-excerpt"><?php the_excerpt(); ?></div>
-      </div>
-    <?php endwhile; ?>
-  <?php else : ?>
-    <p>Brak wpisów w tej kategorii.</p>
-  <?php endif; ?>
+  <?php while(have_posts()) { ?>
+    <?php the_post(); ?>
+
+    <div class="post-item">
+      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+      <div class="post-excerpt"><?php the_excerpt(); ?></div>
+    </div>
+
+  <?php } ?>
 </section>
 ```
 
@@ -59,3 +58,18 @@ Wklej do niego poniższą wersję pętli WordPressa:
     color: #0073aa;
   }
 ```
+
+---
+
+## ⭐ Zadanie z gwiazdką – dodaj tytuł archiwum
+
+Spróbuj dodać dynamiczny tytuł na górze strony archiwum, np.:
+
+- nazwę kategorii,
+- tytuł archiwum wpisów autora,
+- wynik wyszukiwania.
+
+WordPress udostępnia do tego specjalną funkcję:
+
+```php
+<?php the_archive_title(); ?>
