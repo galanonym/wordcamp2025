@@ -59,6 +59,20 @@ Text Domain: wordcamp-2025
 | `License`        | ❌ Nie        | Typ licencji (np. `GPLv2`, `MIT`). Jeśli motyw nie będzie publiczny, można wpisać `NO LICENSE`. Dla motywów publicznych WordPress wymaga licencji zgodnej z GPL. |
 | `Text Domain`    | ✅ Tak (jeśli używasz tłumaczeń) | Identyfikator używany do tłumaczeń (`__()`, `_e()` itp.). Powinien być zgodny z nazwą folderu motywu. |
 
+
+---
+
+### 🔍 Krok 3: Sprawdź czy motyw jest widoczny i aktywuj go
+
+1. Przejdź do `Appearance > Themes` (Wygląd → Motywy).
+2. Znajdź swój nowy motyw na liście. Powinien być widoczny z nazwą i opisem podanym w `style.css`.
+3. Kliknij „Activate” (Aktywuj), aby go opublikować.
+
+Jeśli motyw nie jest widoczny:
+- Upewnij się, że folder został utworzony we właściwym miejscu (`wp-content/themes/`)
+- Sprawdź, czy plik `style.css` zawiera poprawnie sformatowany nagłówek
+
+
 ## 🌟 Zadanie dodatkowe: Rozszerz nagłówek `style.css`
 
 Zajrzyj do oficjalnej dokumentacji WordPressa:
