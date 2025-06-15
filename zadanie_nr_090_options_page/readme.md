@@ -29,17 +29,16 @@ Zainstalowana i aktywna wtyczka:
 
 ## 🧾 Krok 2: Dodaj pole tekstowe do stopki
 
-1. Kliknij **Add New Field**.
+1. Kliknij **Plus**.
 2. Wybierz typ pola: `Text field`
 3. Uzupełnij pola:
    - **Field label**: `Copyright`
    - **Field name**: `copyright`
    - **Autoload**: ✅ włączone
-   - Inne pola możesz zostawić puste
 
-4. Zapisz stronę ponownie.
+4. Zapisz.
 
-🔎 Patrz: `plugin_setup.png` – ten zrzut pokazuje przykładową konfigurację.
+Przykład: `plugin_setup.png` – ten zrzut pokazuje przykładową konfigurację.
 
 ![Przykład](plugin_setup.png)
 
@@ -53,3 +52,17 @@ W pliku `footer.php` (lub `template-parts/footer.php`) wstaw:
 <footer>
   &copy; 2025 Moje Imię. Wszelkie prawa zastrzeżone. <?php echo get_option('copyright'); ?>
 </footer>
+```
+
+Dzięki temu treść będzie pobierana dynamicznie z panelu administratora.
+
+---
+
+## ⭐ Zadanie z gwiazdką – edycja tytułu i menu
+
+Rozszerz stronę opcji o możliwość edycji dodatkowych elementów:
+
+- dodaj pole do zmiany **tytułu strony** (np. nagłówka sekcji),
+- dodaj pole lub pola do definiowania **elementów menu** w stopce lub nagłówku.
+
+Zastanów się, jak można je później wykorzystać w motywie - tak, aby treść była łatwa do edytowania przez administratora.
