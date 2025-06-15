@@ -48,7 +48,7 @@ Rozdzielenie kodu HTML na mniejsze, zarządzalne części (moduły) i przygotowa
 
 ### 🧐 Co robi `get_template_part()`?
 
-- Szuka i wczytuje plik o nazwie `nazwa.php` w podanej ścieże
+- Szuka i wczytuje plik o nazwie `nazwa.php` w podanej ścieżce
 - Większa elastyczność niż `get_header()` / `get_footer()`
 - Pozwala tworzyć warianty np. `header-home.php`
 
@@ -162,5 +162,5 @@ To fundament profesjonalnego motywu WordPress.
 - Logotypy partnerów
 - Licznik do wydarzenia
 
-### Odpowiedz na pytanie róźnią się funkcje `wp_footer()` oraz `get_footer()`?
+### Odpowiedz na pytanie: Czym róźnią się funkcje `wp_footer()` oraz `get_footer()`?
 ---
