@@ -1,4 +1,4 @@
-# 🧱 Zadanie nr 070 - Treść wpisu 
+# 🧱 Zadanie nr 06 - Treść wpisu 
 
 ## 🎯 Cel  
 Wyświetlić dynamiczną treść strony, stosując wzorzec MVC w stylu WordPressa.

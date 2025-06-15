@@ -1,4 +1,4 @@
-## 🗂️ Zadanie nr 05 – Hierarchia plików szablonów w WordPressie
+## 🗂️ Zadanie nr 75 – Hierarchia plików szablonów w WordPressie
 
 ### 🎯 Cel
 

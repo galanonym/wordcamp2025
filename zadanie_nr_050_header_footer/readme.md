@@ -1,4 +1,4 @@
-## 🧱 Zadanie nr 050 – Modułowa budowa motywu WordPress
+## 🧱 Zadanie nr 05 – Modułowa budowa motywu WordPress
 
 ### 🌟 Cel
 
