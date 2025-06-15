@@ -19,8 +19,8 @@ Upewnijmy się, że wszyscy uczestnicy mają przygotowane środowisko do tworzen
 
 3. **Instalujemy pluginy**
    - Classic Editor by WordPress.org
-   - Advanced Custom Fields (ACF®) by WP Engine
-   - (opcjonalnie) WPIDE – File Manager & Code Editor by XplodedThemes
+   - Admin Options Pages - by Johannes van Poelgeest (darmowa alternatywa ACF Pro)
+   - (opcjonalnie) WPIDE - File Manager & Code Editor by XplodedThemes
 
 ### 🧩 Dla osób nieprzygotowanych
 

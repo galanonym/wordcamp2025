@@ -6,6 +6,14 @@ Stworzyć własną globalną stronę opcji w kokpicie WordPressa przy użyciu wt
 
 ---
 
+## 💡 Wskazówka
+
+Do tworzenia własnych stron opcji w WordPressie najczęściej używa się płatnej wersji wtyczki **ACF Pro**, która oferuje wbudowaną obsługę opcji globalnych.  
+
+W tym zadaniu korzystamy z darmowej alternatywy: **Admin Options Pages**, która pozwala osiągnąć bardzo podobny efekt – bez konieczności wykupywania licencji.
+
+---
+
 ## 🔌 Wymagania
 
 Zainstalowana i aktywna wtyczka:  
