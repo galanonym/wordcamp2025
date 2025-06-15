@@ -92,3 +92,44 @@ if (!$content) {
    - **Strona główna (Homepage)** – ustaw na utworzoną przed chwilą stronę.
 
 ✅ Od teraz WordPress (oraz `index.php`) będzie używał tej strony jako strony głównej.
+
+---
+
+## 🌟 Zadanie dodatkowe: Przetwarzanie treści przez filtry WordPressa
+
+W dotychczasowym przykładzie pobieraliśmy treść wpisu za pomocą `get_the_content()` i przypisywaliśmy ją do zmiennej `$content`.  
+Tym razem zmodyfikuj ten kod tak, aby treść została przetworzona przez system filtrów WordPressa – dokładnie tak, jak robi to funkcja `the_content()`:
+
+```php
+$content = apply_filters('the_content', get_the_content());
+```
+### 🧠 Co zrobić?
+
+1. Zastąp istniejące przypisanie:
+
+   ```php
+   $content = get_the_content();
+   ```
+   nową wersją:
+
+   ```php
+   $content = apply_filters('the_content', get_the_content());
+   ```
+   
+2. Odśwież stronę i sprawdź, czy treść wygląda inaczej.  
+3. Porównaj wynik działania `echo $content;` z `the_content();`.
+
+---
+
+### 🔍 Co sprawdzić?
+
+- Jakie zmiany pojawiły się w sposobie wyświetlania treści?
+- Jakie funkcje są podpięte do filtra `'the_content'` (np. shortcodes, `wpautop`, oEmbed)?
+- Czy efekt końcowy przypomina wynik działania `the_content()`?
+- Kiedy warto używać `apply_filters('the_content', ...)`, a kiedy nie?
+
+---
+
+### 🎯 Cel
+
+Zrozumieć, jak WordPress przetwarza treść wpisów i jaką rolę odgrywa filtr `'the_content'` w generowaniu finalnego HTML-a.
