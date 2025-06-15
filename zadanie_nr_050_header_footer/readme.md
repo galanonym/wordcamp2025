@@ -144,10 +144,23 @@ To fundament profesjonalnego motywu WordPress.
 
 ## ⭐ Zadanie z gwiazdką: Więcej sekcji
 
-### Dodaj nowe pliki i ich zawartość:
+### Dodaj sekcje i ich zawartość, np.:
 
-- `template-parts/hero.php`
-- `template-parts/footer-menu.php`
+- Baner promocyjny
+- Pasek ogłoszeń
+- Ciekawe linki
+- Galeria obrazów
+- Formularz kontaktowy
+- Ikony mediów społecznościowych
+- Opinie klientów
+- Lista cech produktu/usługi
+- Lista usług
+- Aktualności lub blog
+- Wideo lub sekcja z filmem
+- Najczęstsze pytania (FAQ)
+- Call to Action (CTA)
+- Logotypy partnerów
+- Licznik do wydarzenia
 
 ### Odpowiedz na pytanie róźnią się funkcje `wp_footer()` oraz `get_footer()`?
 ---
