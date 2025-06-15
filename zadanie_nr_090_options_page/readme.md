@@ -52,7 +52,15 @@ Przykład: `plugin_setup.png` – ten zrzut pokazuje przykładową konfigurację
 
 ---
 
-## 🖥️ Krok 3: Wyświetl tekst `copyright` w motywie
+## ✅ Krok 3: Ustaw tekst `copyright` jako administrator strony
+
+Wejdź do nowego meny `WordCamp` i edytuj tekst:
+![Przykład](options_example.png)
+
+
+---
+
+## 🖥️ Krok43: Wyświetl tekst `copyright` w motywie
 
 W pliku `footer.php` (lub `template-parts/footer.php`) wstaw:
 
