@@ -10,8 +10,8 @@ Rozdzielenie kodu HTML na mniejsze, zarządzalne części (moduły) i przygotowa
 
 ### ✅ Co robimy:
 
-- Wycinamy z `index.php` górną część HTML (`<!DOCTYPE html>` do `<body>`) do pliku `header.php`.
-- Końcówkę HTML (`</body></html>`) przenosimy do `footer.php`.
+- Wycinamy z `index.php` górną część HTML (`<!DOCTYPE html>` do `<body>` lub `<?php wp_body_open(); ?>`) do pliku `header.php`.
+- Końcówkę HTML (`<?php wp_footer(); ?></body></html>`) przenosimy do `footer.php`.
 
 ### ✅ W `index.php` zostaje treść strony:
 
@@ -113,15 +113,6 @@ Zawartość przykładowa:
 
 ---
 
-## ⭐ Zadanie z gwiazdką: Więcej sekcji
-
-### ✅ Dodaj pliki:
-
-- `template-parts/banner.php`
-- `template-parts/footer-menu.php`
-
----
-
 ## ✅ Podsumowanie
 
 - Rozdzieliłeś kod na moduły
@@ -130,3 +121,12 @@ Zawartość przykładowa:
 
 To fundament profesjonalnego motywu WordPress.
 
+## ⭐ Zadanie z gwiazdką: Więcej sekcji
+
+### ✅ Dodaj pliki i ich zawartość:
+
+- `template-parts/banner.php`
+- `template-parts/footer-menu.php`
+
+### Odpowiedz na pytanie róźnią się funkcje `wp_footer()` oraz `get_footer()`?
+---
