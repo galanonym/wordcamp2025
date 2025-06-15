@@ -8,12 +8,12 @@ Rozdzielenie kodu HTML na mniejsze, zarządzalne części (moduły) i przygotowa
 
 ## 🔹 Krok 1: Podział `index.php` na `header.php` i `footer.php`
 
-### ✅ Co robimy:
+### Co robimy:
 
 - Wycinamy z `index.php` górną część HTML (`<!DOCTYPE html>` do `<body>` lub `<?php wp_body_open(); ?>`) do pliku `header.php`.
 - Końcówkę HTML (`<?php wp_footer(); ?></body></html>`) przenosimy do `footer.php`.
 
-### ✅ W `index.php` zostaje treść strony:
+### W `index.php` zostaje treść strony:
 
 ```php
 <?php get_header(); ?>
@@ -30,15 +30,15 @@ Rozdzielenie kodu HTML na mniejsze, zarządzalne części (moduły) i przygotowa
 
 ## 🔹 Krok 2: Przeniesienie do `/template-parts/`
 
-### ✅ Tworzymy folder:
+### Tworzymy folder:
 
 ```
 /wp-content/themes/wordcamp-2025/template-parts/
 ```
 
-### ✅ Przenosimy tam `header.php` i `footer.php`.
+### Przenosimy tam `header.php` i `footer.php`.
 
-### ✅ Używamy:
+### Używamy:
 
 ```php
 <?php get_template_part('template-parts/header'); ?>
@@ -62,7 +62,7 @@ Dlaczego to dobry pomysł?
 
 ## 🔹 Krok 3: Dodanie `top-menu.php`
 
-### ✅ Tworzymy plik:
+### Tworzymy plik:
 
 ```
 template-parts/top-menu.php
@@ -103,7 +103,7 @@ Zawartość przykładowa:
 }
 ```
 
-### ✅ W `index.php`:
+### W `index.php`:
 
 ```php
 <?php get_template_part('template-parts/top-menu'); ?>
@@ -129,7 +129,7 @@ To fundament profesjonalnego motywu WordPress.
 
 ## ⭐ Zadanie z gwiazdką: Więcej sekcji
 
-### ✅ Dodaj pliki i ich zawartość:
+### Dodaj pliki i ich zawartość:
 
 - `template-parts/banner.php`
 - `template-parts/footer-menu.php`
