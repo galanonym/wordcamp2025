@@ -85,8 +85,8 @@ Zawartość przykładowa:
   display: flex;
   gap: 20px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  margin: 20px 0px 40px 0px;
+  justify-content: center;
 }
 
 .top-menu li a {
@@ -99,9 +99,11 @@ Zawartość przykładowa:
 
 .top-menu li a:hover {
   background-color: #ddd;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 ```
+
+CSS możemy dodać w globalnym `html-top.php` lub bezpośrednio w pliku `top-menu.php` w tagu `<style>`. Jakie zalety ma druga opcja?
 
 ### W `index.php`:
 
