@@ -52,6 +52,12 @@ Rozdzielenie kodu HTML na mniejsze, zarządzalne części (moduły) i przygotowa
 - Większa elastyczność niż `get_header()` / `get_footer()`
 - Pozwala tworzyć warianty np. `header-home.php`
 
+### Sprzątamy!
+
+Zmieńmy nazwy plików `header.php` na `html-top.php` oraz `footer.php` na `html-bottom.php`.
+
+Dlaczego to dobry pomysł?
+
 ---
 
 ## 🔹 Krok 3: Dodanie `top-menu.php`
