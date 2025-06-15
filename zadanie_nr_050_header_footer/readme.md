@@ -119,6 +119,19 @@ Zawartość przykładowa:
 
 ---
 
+## Dzielimy dalej!
+
+Przenieś cały kod z index.php do nowych plików w /template-parts/ dla każdej sekcji
+
+- `template-parts/html-top.php`
+- `template-parts/hero.php`
+- `template-parts/top-menu.php`
+- `template-parts/introduction.php`
+- `template-parts/footer.php`
+- `template-parts/html-bottom.php`
+
+Co zostało w `index.php`?
+
 ## ✅ Podsumowanie
 
 - Rozdzieliłeś kod na moduły
@@ -129,9 +142,9 @@ To fundament profesjonalnego motywu WordPress.
 
 ## ⭐ Zadanie z gwiazdką: Więcej sekcji
 
-### Dodaj pliki i ich zawartość:
+### Dodaj nowe pliki i ich zawartość:
 
-- `template-parts/banner.php`
+- `template-parts/hero.php`
 - `template-parts/footer-menu.php`
 
 ### Odpowiedz na pytanie róźnią się funkcje `wp_footer()` oraz `get_footer()`?
