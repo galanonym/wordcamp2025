@@ -1,4 +1,4 @@
-## 🗂️ Zadanie nr 75 – Hierarchia plików szablonów w WordPressie
+## 🗂️ Zadanie nr07 – Hierarchia plików szablonów w WordPressie
 
 ### 🎯 Cel
 
@@ -25,7 +25,6 @@ Jeśli nie działa link, przejdź na:
 | `page.php`       | Domyślny szablon pojedynczej **strony statycznej** (`Page`) – np. „O nas”, „Kontakt”. |
 | `single.php`     | Szablon pojedynczego **wpisu na blogu** (`Post`). Jeśli istnieje `single-post.php`, zostanie użyty zamiast. |
 | `archive.php`    | Szablon **archiwum**: kategorii, tagów, dat, autora, typu wpisu, itd. Używany, gdy nie ma bardziej szczegółowego szablonu (`category.php`, `tag.php`, `author.php` itd.). |
-| `search.php`     | Szablon strony wyników **wyszukiwania** – kiedy użytkownik używa pola szukania w WordPressie. |
 | `404.php`        | Szablon wyświetlany, gdy **żądana strona nie istnieje** (błąd 404). |
 
 ---
@@ -39,42 +38,26 @@ Na końcu zawsze użyje `index.php` – to **absolutne minimum**, które musi by
 
 ### 📌 Zadanie
 
-1. Utwórz pliki `front-page.php`, `page.php`, `single.php`, `archive.php`, `search.php`, `404.php` w katalogu motywu.
-2. W każdym pliku dodaj testowy nagłówek, np.:
+1. Utwórz pliki `front-page.php`, `page.php`, `single.php`, `archive.php`, `404.php` w katalogu motywu.
+2. Tymczasowo możesz każdym pliku dodać testowy kod HTML, np.:
 
-```php
-<?php
-echo 'To jest page.php';
+```html
+<b>To jest page.php!</b>
 ```
-   
-### ⭐ Zadanie z gwiazdką – eksperyment z nazwami szablonów
-
-WordPress pozwala tworzyć **bardziej szczegółowe szablony** z nazwami zawierającymi identyfikatory (`ID`) lub adresy (`slug`), które nadpisują ogólne pliki takie jak `archive.php`, `page.php`, `single.php`.
-
----
-
-## 🧪 Spróbuj sam:
-
-Utwórz poniższe pliki w katalogu motywu i zaobserwuj ich działanie:
-
-- `author-1.php`  
-  Używany tylko dla archiwum autora o ID `1`.
-
-- `category-news.php`  
-  Wyświetlany tylko dla kategorii o slug `news`.
-
-- `page-o-nas.php`  
-  Używany tylko dla strony statycznej o adresie `o-nas`.
-
-- `single-post-moja-historia.php`  
-  Tylko dla wpisu typu `post` i o slug `moja-historia`.
-
----
+3. Przetestuj poprzez WordPress Admin, np. przez przycisk `View`
+4. Poskładaj każdą z tych stron z wcześniej przygotowanych `/template-parts/`
+5. W `index.php` usuń zawartość i dodaj ostrzeżenie, że w sumie tu nigdy nie powinniśmy trafić :)
 
 ## 💡 Wskazówka
 
 Aby sprawdzić, który plik template został użyty, dodaj na końcu pliku, lub nawet lepiej, jako osobny plik `template-parts/debug.php`:
 
 ```php
-<p>Template file: <?php global $template; echo wp_basename($template); ?></p>
+<small>Template file: <b><?php global $template; echo wp_basename($template); ?></b></small>
 ```
+   
+## ⭐ Zadanie z gwiazdką – eksperyment z nazwami szablonów
+
+Kiedy testujesz `Page` oraz `Post`, chyba brakuje tytułu strony? Dodaj nowy `template-parts` o nazwie `title.php` i użyj funkcji `<?php the_title(); ?>`
+
+Jeśli dasz radę możesz w `title.php` wyświetlić jeszcze datę, nazwisko autora itd.
