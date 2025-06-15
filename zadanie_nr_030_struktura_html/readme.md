@@ -58,7 +58,7 @@ header {
   text-align: center;
 }
 
-main {
+main, section {
   background-color: #fff;
   padding: 20px;
   margin-top: 20px;
@@ -92,11 +92,11 @@ Czas wykorzystać style zapisane wcześniej w `style.css`, dodając odpowiednie 
     <h1>Moja prosta strona</h1>
   </header>
 
-  <main>
+  <section>
     <h2>Wprowadzenie</h2>
     <p>To jest bardzo podstawowy przykład strony HTML z osadzonym stylem CSS.</p>
     <p>Możesz edytować ten szablon według własnych potrzeb.</p>
-  </main>
+  </section>
 
   <footer>
     &copy; 2025 Moje Imię. Wszelkie prawa zastrzeżone.
