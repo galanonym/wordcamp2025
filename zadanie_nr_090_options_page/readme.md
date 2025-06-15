@@ -50,8 +50,6 @@ Zainstalowana i aktywna wtyczka:
 W pliku `footer.php` (lub `template-parts/footer.php`) wstaw:
 
 ```php
-<?php
-if ( function_exists( 'get_admin_option' ) ) {
-  echo '<p>' . esc_html( get_admin_option( 'copyright' ) ) . '</p>';
-}
-?>
+<footer>
+  &copy; 2025 Moje Imię. Wszelkie prawa zastrzeżone. <?php echo get_option('copyright'); ?>
+</footer>
