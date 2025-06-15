@@ -1,4 +1,4 @@
-# 🧱 Zadanie nr 080 – Lista wpisów w archive.php (The Loop + template part)
+# 🧱 Zadanie nr 08 – Lista wpisów w archive.php
 
 ## 🎯 Cel
 
