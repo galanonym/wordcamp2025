@@ -74,6 +74,29 @@ Zawartość przykładowa:
 </nav>
 ```
 
+```css
+.top-menu ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-menu li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.top-menu li a:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+```
+
 ### ✅ W `index.php`:
 
 ```php
