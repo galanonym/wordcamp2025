@@ -162,5 +162,5 @@ To fundament profesjonalnego motywu WordPress.
 - Logotypy partnerów
 - Licznik do wydarzenia
 
-### Odpowiedz na pytanie róźnią się funkcje `wp_footer()` oraz `get_footer()`?
+### Odpowiedz na pytanie: Czym róźnią się funkcje `wp_footer()` oraz `get_footer()`?
 ---
