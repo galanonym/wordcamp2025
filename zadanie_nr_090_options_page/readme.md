@@ -60,7 +60,7 @@ Wejdź do nowego meny `WordCamp` i edytuj tekst:
 
 ---
 
-## 🖥️ Krok43: Wyświetl tekst `copyright` w motywie
+## 🖥️ Krok 4: Wyświetl tekst `copyright` w motywie
 
 W pliku `footer.php` (lub `template-parts/footer.php`) wstaw:
 
