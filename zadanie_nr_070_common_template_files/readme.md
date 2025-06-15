@@ -21,7 +21,7 @@ Jeśli nie działa link, przejdź na:
 
 | Plik            | Opis |
 |------------------|------|
-| `home.php`       | Szablon **strony bloga** (główna lista postów), gdy WordPress jest ustawiony na „Twoje najnowsze wpisy” lub wybrano stronę jako „Strona z wpisami” w ustawieniach czytania. |
+| `front-page.php` | Szablon **strony głównej**, gdy w ustawieniach WordPressa wybrano statyczną stronę jako „Strona główna”. Ma najwyższy priorytet przed `home.php` i `page.php`. |
 | `page.php`       | Domyślny szablon pojedynczej **strony statycznej** (`Page`) – np. „O nas”, „Kontakt”. |
 | `single.php`     | Szablon pojedynczego **wpisu na blogu** (`Post`). Jeśli istnieje `single-post.php`, zostanie użyty zamiast. |
 | `archive.php`    | Szablon **archiwum**: kategorii, tagów, dat, autora, typu wpisu, itd. Używany, gdy nie ma bardziej szczegółowego szablonu (`category.php`, `tag.php`, `author.php` itd.). |
@@ -39,7 +39,7 @@ Na końcu zawsze użyje `index.php` – to **absolutne minimum**, które musi by
 
 ### 📌 Zadanie
 
-1. Utwórz pliki `home.php`, `page.php`, `single.php`, `archive.php`, `search.php`, `404.php` w katalogu motywu.
+1. Utwórz pliki `front-page.php`, `page.php`, `single.php`, `archive.php`, `search.php`, `404.php` w katalogu motywu.
 2. W każdym pliku dodaj testowy nagłówek, np.:
 
 ```php
@@ -73,7 +73,7 @@ Utwórz poniższe pliki w katalogu motywu i zaobserwuj ich działanie:
 
 ## 💡 Wskazówka
 
-Aby sprawdzić, który plik template został użyty, dodaj na końcu pliku:
+Aby sprawdzić, który plik template został użyty, dodaj na końcu pliku, lub nawet lepiej, jako osobny plik `template-parts/debug.php`:
 
 ```php
 <p>Template file: <?php global $template; echo wp_basename($template); ?></p>
