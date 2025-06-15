@@ -38,13 +38,7 @@ Brak `wp_body_open()` może zablokować niektóre mechanizmy dostępności lub i
 | `<?php language_attributes(); ?>`| w tagu `<html>`             | Dodaje np. `lang="pl-PL"` i `dir="ltr"` |
 | `<?php bloginfo('charset'); ?>`  | w `<meta charset>`          | Wstawia poprawne kodowanie znaków, np. UTF-8 |
 | `<?php body_class(); ?>`         | w tagu `<body>`             | Dynamiczne klasy: np. `home`, `single`, `logged-in` |
-| `title_tag` | w `<title>`             | Wstawia tytuł strony/posta |
 | `<?php get_header(); ?>`, `get_footer()` | zamiast duplikować `<head>` i `<footer>` | Dzieli kod na moduły i poprawia czytelność |
-
-💡 Ciekawostka: Dodaliśmy `<?php wp_title(); ?>` - a teraz sprawdź sam:
-
-> Co pojawi się w pasku tytułu przeglądarki, jeśli wejdziesz na pojedynczy post albo stronę?  
-> Czy WordPress automatycznie zmienia tytuł w zależności od odwiedzanej treści?
 
 Spróbuj i zobacz efekt.
 
