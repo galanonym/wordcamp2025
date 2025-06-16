@@ -15,10 +15,14 @@ Zapraszamy:
 ## Wymagania
 
 - 💻 Komputer
-- 🧱 Podstawy **HTML** i **CSS**
-- 🧠 Znajomość podstaw programowania (np. `if`, `else`, zmienne)
-- ⚙️ Lokalnie zainstalowany **WordPress** (najlepiej czysta instalacja)
-- 📝 Edytor tekstu (np. Visual Studio Code, Sublime Text)
+- 🧱 Podstawy **HTML**
+- 🌐 Lokalna instalacja WordPress **nie jest wymagana**, skorzystamy z narzędzia on-line na którym będziecie mogli przy pomocy kilku kliknięć postawić czystego WordPress’a.
+
+## Mile widziane:
+
+- 🧱 Podstawy **CSS**
+- 🤖 Podstawy programowania w jakimkolwiek języku (co to jest if else itd.)
+- 🏠 Lokalnie zainstalowany WordPress (najlepiej czysty).
 
 ---
 
