@@ -17,7 +17,7 @@ if (!$content) {
     margin-bottom: 20px;
   }
 
-  .content ul {
+  .content ul, .content ol {
     padding-left: 20px;
     margin-bottom: 20px;
   }
