@@ -1,3 +1,5 @@
+<?php if (!defined('ABSPATH')) { exit; } ?>
+
 <style>
   .top-menu ul {
     display: flex;

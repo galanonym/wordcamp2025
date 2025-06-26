@@ -1,3 +1,5 @@
+<?php if (!defined('ABSPATH')) { exit; } ?>
+
 <header>
   <h1><?php bloginfo('name'); ?></h1>
   <p><?php bloginfo('description'); ?></p>

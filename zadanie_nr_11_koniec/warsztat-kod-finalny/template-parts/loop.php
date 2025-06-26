@@ -1,3 +1,5 @@
+<?php if (!defined('ABSPATH')) { exit; } ?>
+
 <style>
   .post-item {
     margin-bottom: 30px;

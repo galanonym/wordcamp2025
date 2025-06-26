@@ -1,3 +1,5 @@
+<?php if (!defined('ABSPATH')) { exit; } ?>
+
 <section>
   <h2>Wprowadzenie</h2>
   <p>To jest bardzo podstawowy przykład strony HTML z osadzonym stylem CSS.</p>

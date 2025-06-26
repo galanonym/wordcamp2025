@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 $content = get_the_content();
 if (!$content) {
 	return;
