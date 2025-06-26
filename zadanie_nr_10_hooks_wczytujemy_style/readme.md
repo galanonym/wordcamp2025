@@ -118,3 +118,30 @@ add_action('wp_enqueue_scripts', function() {
 
 💡 Zobacz jak teraz wygląda linijka dodana do <head> 
 
+---
+
+## ⭐ Zadanie dodatkowe: Porządkujemy kod
+
+Zamiast trzymać cały kod bezpośrednio w pliku `functions.php`, lepiej uporządkować go w osobnych plikach. To dobry nawyk i bardzo pomocna praktyka, szczególnie gdy projekt zaczyna rosnąć.
+
+### 🧩 Co robimy?
+
+1. W katalogu motywu utwórz folder `/inc/`
+2. Wewnątrz tego folderu utwórz plik `load-css.php`
+3. Przenieś do tego pliku cały kod `add_action(...)` odpowiadający za ładowanie pliku CSS
+4. W pliku `functions.php` dodaj na końcu linię:
+
+```php
+require_once get_parent_theme_file_path('/inc/load-css.php');
+```
+
+### 🔎 Co to daje?
+
+- Kod w `functions.php` staje się przejrzysty i czytelny
+- Możesz myśleć o katalogu `/inc/` jak o **zbiorze mini-pluginów** – każdy plik modyfikuje jakieś konkretne zachowanie WordPressa
+- W przyszłości łatwo będzie włączać lub wyłączać funkcjonalności przez komentowanie jednej linijki `require_once(...)`
+
+## 🤔 Czy wiesz?
+
+Właśnie w taki sposób buduje się większość **pluginów do WordPressa** – zamiast jednego wielkiego pliku, tworzy się strukturę folderów z małymi modułami. Dzięki temu kod jest łatwiejszy w utrzymaniu i można go ponownie wykorzystać w innych projektach.
+
