@@ -38,7 +38,7 @@ Przyda się też program **FileZilla**, tak aby móc przesłać pliki na serwer:
 
 #### Opcja 2
 
-**TasteWP** to darmowe narzędzie online, które pozwala szybko uruchomić tymczasową instalację WordPressa w przeglądarce – bez potrzeby instalowania czegokolwiek lokalnie. Świetnie sprawdza się do testów i nauki. Konto nie jest wymagane.
+**TasteWP** to darmowe narzędzie online, które pozwala szybko uruchomić tymczasową instalację WordPressa w przeglądarce – bez potrzeby instalowania czegokolwiek lokalnie. Świetnie sprawdza się do testów i nauki. Konto nie jest wymagane, ale polecamy założyć.
 
 🔗 [https://tastewp.com/](https://tastewp.com/)
 
