@@ -26,7 +26,7 @@ Upewnijmy się, że wszyscy uczestnicy mają przygotowane środowisko do tworzen
 
 Jeśli ktoś **nie ma lokalnej instalacji WordPress**, może skorzystać z dwóch alternatywnych rozwiązań:
 
-#### Opcja 1
+<ins>Opcja 1</ins>
 
 Sponsor WordCamp 2025 **dhosting.pl**, udostępnił darmowe instalacje WordPress na czas warsztatów.
 
@@ -36,7 +36,7 @@ Przyda się też program **FileZilla**, tak aby móc przesłać pliki na serwer:
 [Jak przesłać pliki poprzez FTP używając aplikacji FileZilla?](https://dhosting.pl/pomoc/baza-wiedzy/jak-przeslac-pliki-poprzez-ftp-uzywajac-aplikacji-filezilla/)
 
 
-#### Opcja 2
+<ins>Opcja 2</ins>
 
 **TasteWP** to darmowe narzędzie online, które pozwala szybko uruchomić tymczasową instalację WordPressa w przeglądarce – bez potrzeby instalowania czegokolwiek lokalnie. Świetnie sprawdza się do testów i nauki. Konto nie jest wymagane, ale polecamy założyć.
 
