@@ -25,7 +25,7 @@
 <nav class="top-menu">
   <ul>
     <li><a href="/">Strona główna</a></li>
-    <li><a href="/o-nas">O nas</a></li>
-    <li><a href="/kontakt">Kontakt</a></li>
+    <li><a href="/sample-page/">Przykładowa strona</a></li>
+    <li><a href="/privacy-policy/">Polityka Prywatności</a></li>
   </ul>
 </nav>
